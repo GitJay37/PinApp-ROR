@@ -10,6 +10,20 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">PintApp</a>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <% if signed_in? %>
+            <li> <%= link_to "Salir", destroy_user_session_path %> </li>
+          <% else %>
+            <li class="mr-4"> <%= link_to "Registrate", new_user_registration_path %> </li>
+            <li> <%= link_to "Iniciar sesión", new_user_session_path %> </li>
+          <% end %>
+        </ul>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
