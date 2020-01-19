@@ -1,0 +1,23 @@
+<div id="pins" class="transitions-enabled clearfix">
+    <% @pins.each do |pin| %>
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+                    <div class="card">
+                        <div
+                            class="cover cover-sm"
+                            style="background-image:url(<%= pin.image_url %>" 
+                            class="card-img-top" alt="<%= pin.title%>"
+                        >
+                        </div>
+
+                        <div class="card-body">
+                            <h2 class="card-title" ><%= pin.title %></h2>
+                            <p class="card-text"> Publicado por <%= pin.user.email %> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <% end %>
+</div>

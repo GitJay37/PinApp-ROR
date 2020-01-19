@@ -16,6 +16,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <ul class="navbar-nav">
           <% if signed_in? %>
+            <li class="mr-4"> <%= link_to "Nuevo Pin", new_pin_path %> </li>
             <li> <%= link_to "Salir", destroy_user_session_path %> </li>
           <% else %>
             <li class="mr-4"> <%= link_to "Registrate", new_user_registration_path %> </li>

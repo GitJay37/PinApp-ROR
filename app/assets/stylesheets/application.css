@@ -1,2 +1,38 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0em;
+}
+nav {
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0,22);
+}
+.navbar-brand{
+    color: #bd1e23 !important;
+    font-weight: bold;
+}
+.cover-sm {
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.6);
+    
+      flex-direction: initial
+}
+
+.card-title {
+    min-height: 3rem;
+    color: blue;
+}
+
+.card-text {
+    min-height: 10rem;
+}
+
+
+    

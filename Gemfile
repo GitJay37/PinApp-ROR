@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'masonry-rails', '~> 0.2.4'
 
 
 # Use Active Storage variant
