@@ -1,7 +1,58 @@
 // Place all the styles related to the Pins controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+/*
 
-  
-  
-      
+    @import "bootstrap";
+
+    $font-family: "Oswald", sans-serif;
+    $marg: 0em;
+    $box-shadow: 0 1px 2px 0 rgba(0,0,0,0,22);
+    $color: #bd1e23 !important;
+    $font-weight: bold;
+    $height: 350px;
+    $background-position: center;
+    $background-repeat: no-repeat;
+    $border: 0 !important;
+    $box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.6);
+    $min-height_1: 1rem;
+    $min-height_3: 3rem;
+
+    body {
+    font: $font-family;
+    margin: $marg;
+    }
+
+    nav {
+        box-shadow: $box-shadow;
+    }
+
+    .navbar-brand{
+        color: $color;
+        font-weight: $font-weight;
+    }
+
+    .cover-sm {
+        height: $height;
+        background-position: $background-position;
+        background-repeat: $background-repeat;
+    }
+
+    .card {
+        border: $border;
+        box-shadow: $box-shadow;
+    }
+
+    .card-title {
+        min-height: $min-height_1
+    }
+
+    .card-text {
+        min-height: $min-height_3
+    }
+*/
+
+    
+    
+        
