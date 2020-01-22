@@ -5,32 +5,32 @@ body {
     font-family: "Oswald", sans-serif;
     margin: 0em;
 }
+
 nav {
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0,22);
+box-shadow: 0 1px 2px 0 rgba(0,0,0,0,22);
 }
 
 .navbar-brand{
-    color: #bd1e23 !important;
-    font-weight: bold;
+color: #bd1e23 !important;
+font-weight: bold;
 }
 
 .cover-sm {
-  height: 350px;
-  background-position: center;
-  background-repeat: no-repeat;
-
+height: 350px;
+background-position: center;
+background-repeat: no-repeat;
 }
+
 .card {
-  border: 0 !important;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.6);
+border: 0 !important;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+0 2px 4px -1px rgba(0, 0, 0, 0.6);
 }
+
 .card-title {
-  min-height: 1rem;
+min-height: 1rem;
 }
+
 .card-text {
-  min-height: 3rem;
+min-height: 3rem;
 }
-
-
-    
