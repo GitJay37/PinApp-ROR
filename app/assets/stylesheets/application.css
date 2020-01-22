@@ -15,9 +15,11 @@ nav {
 }
 
 .cover-sm {
-  height: 200px;
-  width: 200px;
-  background-blend-mode: normal;
+  height: 350px;
+  background-position: center;
+  max-width: 100%;
+  background-repeat: no-repeat;
+
 }
 .card {
   border: 0 !important;
@@ -25,10 +27,10 @@ nav {
     0 2px 4px -1px rgba(0, 0, 0, 0.6);
 }
 .card-title {
-  min-height: 3rem;
+  min-height: 1rem;
 }
 .card-text {
-  min-height: 10rem;
+  min-height: 3rem;
 }
 
 

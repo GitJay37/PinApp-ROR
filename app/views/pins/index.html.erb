@@ -1,20 +1,20 @@
 <section id="pins" class="transitions-enabled clearfix">
     <% @pins.each do |pin| %>
-        <div class="d-inline-block mt-2 mb-2 ml-5mr-5">
+        <div class="d-inline-block mt-3 mb-3">
             <div class="row justify-content-center">
-                <div class="col-sm-6 col-md-8 ml-5">
+                <div class="col-12 col-sm-6 col-md-8 ml-5">
                     <div class="card">
                         <div
-                            class="cover cover-sm"
+                            title="Something"
+                            class="cover cover-sm mt-3"
                             style="background-image:url(<%= pin.image_url %>" 
-                            class="card-img-top" alt="<%= pin.title%>"
                         >
                         </div>
 
                         <div class="card-body">
                             <h2 class="card-title" ><%= pin.title %></h2>
                             <p class="card-text"> Publicado por <%= pin.user.email %> </p>
-                            <p> <%= link_to  "Eliminar", pin, method: :delete, data:{confirm: "Are you sure?"} %></p>
+                            <p> <%= link_to "Eliminar", pin, method: :delete, data:{confirm: "Are you sure?"} %></p>
                         </div>
                     </div>
                 </div>
